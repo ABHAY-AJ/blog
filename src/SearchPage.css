@@ -1,0 +1,96 @@
+/* Global */
+.search-page {
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(135deg, #90aeca, #d1b9b4);
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+    overflow: auto; /* Set overflow to auto for smoother scrolling */
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+  }
+  
+  .hero-banner {
+    background: linear-gradient(90deg, #2e59b6, #aab3c2);
+    padding: 40px 20px;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-banner {
+      padding: 20px 15px;
+      text-align: center;
+    }
+  
+    .shiny-text {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-banner {
+      padding: 15px 10px;
+    }
+  
+    .shiny-text {
+      font-size: 1.8rem;
+    }
+  
+    .search-bar-container {
+      margin-top: 15px;
+    }
+  }
+  
+  .shiny-text {
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #ffe259, #ffa751);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .search-bar-container {
+    margin-top: 20px;
+  }
+  
+  .input-container input,
+  .select-container select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .result-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .result-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(255, 255, 255, 0.5);
+  }
+  
+  .spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  /* Pagination */
+  .pagination .ant-pagination-item {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+  }
+  
+  .pagination .ant-pagination-item:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+  
