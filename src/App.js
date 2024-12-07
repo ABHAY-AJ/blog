@@ -153,7 +153,7 @@ const App = () => {
   );
 };
 
-// ScrollCard Component with Animation
+
 const ScrollCard = ({ title, body, tags }) => {
   const [ref, inView] = useInView({ triggerOnce: true });
   const animation = useSpring({

@@ -5,9 +5,9 @@
     color: white;
     min-height: 100vh;
     padding: 20px;
-    overflow: auto; /* Set overflow to auto for smoother scrolling */
-    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
-    scroll-behavior: smooth; /* Enable smooth scrolling */
+    overflow: auto; 
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth; 
   }
   
   .hero-banner {
